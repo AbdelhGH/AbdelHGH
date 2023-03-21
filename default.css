@@ -1,0 +1,88 @@
+
+
+html {font-size: 150%;}
+
+h1 {font-size: 250%;font-family: 'Verdana';
+  margin-left: 2%;margin-right: 27%;
+  padding:1%;border-radius: 20px;
+  transition: background, 0.25s;transition: color, 0.25s;}
+
+h1:hover { cursor: default; background: rgb(201, 201, 201);}
+
+
+address {margin-top: 20px;margin-left: 3%; font-size: larger;font-family: Verdana;}
+
+address:hover {cursor:default}
+
+
+body {background-color: rgb(243, 243, 243);color:rgb(15, 15, 15);}
+
+
+blockquote {font-family: 'Trebuchet MS';font-size: 175%;text-align: center;text-decoration: none;margin-left: 30%;margin-right: 30%;padding: 10px;border-radius: 15px;background: none;transition-property: background; transition-duration: 0.25s;}
+
+blockquote:hover {cursor: default;background: rgb(228, 228, 228);}
+
+
+.p1 {font-family: 'Georgia';font-size: 130%;
+  border: none;border-radius: 15px;
+  text-align: left;margin-left: 5%;margin-right: 10%;padding: 7px;
+  transition-property: background;transition-duration: 0.25s; }
+
+.p1:hover {cursor:auto;}
+
+.p2 {font-family: 'Helvetica';font-size: 140%;
+  border: none;border-radius: 15px;
+  text-align: left;margin-left:5%;margin-right: 10%;padding: 7px;
+  transition-property: background;transition-duration: 0.25s;word-spacing: 50%;}
+
+.p2:hover {cursor:auto;}
+
+
+
+.p3 {font-family: Helvetica;font-size: 130%;
+  border: none;border-radius: 15px;
+  text-align: left;margin-left:2%;margin-right: 10%;padding: 7px;
+  transition-property: background;transition-duration: 0.25s; }
+
+.p3:hover {cursor:auto;}
+
+
+img.titleimage {height: 750%;width:100%;text-align: center;
+  left: 0px;
+}
+
+h2 {font-family: Trebuchet MS;
+  margin-left: 10%;margin-right: 30%;padding: 7px;
+  border-radius: 10px; background: none;
+  transition-property: background;transition-duration: 0.25s; font-size: 175%;}
+
+h2:hover {background: rgb(219, 219, 219);cursor: default;}
+
+ol {font-size: 125%;}
+
+a {color:rgb(42, 34, 146)}
+
+.img {
+  height: 50%;
+  width:50%;
+  border-radius: 15px;
+  border:2px solid black;
+  transition: border-color 0.15s;
+}
+
+.img:hover {
+  border-color: rgb(216, 216, 216);
+}
+
+#gigachadimg {
+  padding:10px;
+  width:25%;
+  height:25%;
+  transition-property: 'background-color';
+  transition-duration: 0.25s;
+
+}
+
+#gigachadimg:hover {
+  background-color: rgb(37, 37, 37);
+}
